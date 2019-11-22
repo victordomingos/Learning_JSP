@@ -32,7 +32,7 @@
             table, th, td {
                 border: <%=use_border%>px solid <%=border_color%>;
                 width: <%=t_width%>px;
-                border-spacing: 0;                
+                border-spacing: 0;
             }
             
         </style>
