@@ -31,7 +31,6 @@
                     }
                     else if (SessionValidation.validateUser(user, passwd)){
                         session.setAttribute("username", user);
-                        session.setAttribute("passwd", passwd); // replace this with hash or anything else
                         out.println("Olá, " + user + "! Bem-vindo(a) de volta!");
                         out.println("<br><a href=\"logout.jsp\">Sair</a>");
                     }

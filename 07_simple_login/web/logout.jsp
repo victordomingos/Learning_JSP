@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta http-equiv="Refresh" content="3; url=index.jsp" />
+        <meta http-equiv="Refresh" content="2; url=index.jsp" />
         <title>JSP Page</title>
         <link rel="stylesheet" href="css/style.css"/>
     </head>
@@ -21,12 +21,17 @@
 
             <div class="login">
                 <% 
-                    out.println("A terminar sessão... <br>Será redirecionado automaticamente para a página inicial.");
+                    out.println("Sessão terminada.");
                     session.setAttribute("username", null);
-                    session.setAttribute("passwd", null);
                     session.invalidate();
-
+                    
                 %>
+            </div>
+            <div class="content">
+                <% 
+                    out.println("<p>&nbsp;</p><p align=\"center\">A redirecionar para a página inicial...");
+                %>
+                
             </div>
         </div>
     </body>
