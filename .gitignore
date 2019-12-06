@@ -36,3 +36,5 @@ hs_err_pid*
 /06_form_table_generator/build/
 /07_simple_login/nbproject/private/
 /07_simple_login/build/
+/08_file_upload/nbproject/private/
+/08_file_upload/build/
